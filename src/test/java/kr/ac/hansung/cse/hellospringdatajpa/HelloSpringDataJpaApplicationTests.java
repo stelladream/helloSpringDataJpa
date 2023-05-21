@@ -1,7 +1,7 @@
 package kr.ac.hansung.cse.hellospringdatajpa;
 
 import kr.ac.hansung.cse.hellospringdatajpa.entity.Product;
-import kr.ac.hansung.cse.hellospringdatajpa.entity.repository.ProductRepository;
+import kr.ac.hansung.cse.hellospringdatajpa.repository.ProductRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

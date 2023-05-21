@@ -1,4 +1,4 @@
-package kr.ac.hansung.cse.hellospringdatajpa.entity.repository;
+package kr.ac.hansung.cse.hellospringdatajpa.repository;
 
 import kr.ac.hansung.cse.hellospringdatajpa.entity.Product;
 import org.springframework.data.domain.Pageable;

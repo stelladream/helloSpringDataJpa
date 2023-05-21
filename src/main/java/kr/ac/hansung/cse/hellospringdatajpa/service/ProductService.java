@@ -1,7 +1,7 @@
 package kr.ac.hansung.cse.hellospringdatajpa.service;
 
 import kr.ac.hansung.cse.hellospringdatajpa.entity.Product;
-import kr.ac.hansung.cse.hellospringdatajpa.entity.repository.ProductRepository;
+import kr.ac.hansung.cse.hellospringdatajpa.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,9 +18,7 @@ public class ProductService {
     public Product get(long id) {
         return repo.findById(id).get();
     }
-    public List<Product> listAll() {
-        return repo.findAll();
-    }
+    public List<Product> listAll() { return repo.findAll(); }
     public void save(Product product) {
         repo.save(product);
     }
